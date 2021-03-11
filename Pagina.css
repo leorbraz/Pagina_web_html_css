@@ -1,0 +1,75 @@
+*{
+    
+}
+
+/*onde foi colorido o fundo da página*/
+body{
+    height: 100%;
+    background: rgb(159, 159, 172);
+    
+}
+
+/*onde foi dado cor e forma ao cabeçalho da página*/
+header{
+    margin-top: 3%;
+    background: cadetblue;
+    border: 1px solid;
+    margin: 10px;
+	  
+}   
+
+header .titulo{
+    font-family: sans-serif;
+    color: rgb(4, 15, 53);
+    margin-left: 42%;
+}
+
+header .subtitulo{
+    font-family: sans-serif;
+    color: rgb(4, 15, 53);
+    margin-left: 42%;
+}
+
+/*foi dado formato aos blocos do conteúdo da página*/
+main{
+    border: 1px solid;
+    margin: 10px;
+    display: flex;
+    min-height: 500px;
+}
+
+/*separamos o conteudo em 3 partes*/
+main div{
+    border: 1px solid;
+    width: 50%;
+}
+
+/*foi dada uma cor a cada bloco de main*/
+main .menu{
+    background: mediumpurple;
+    font-size: 2em;
+}
+
+/*foi colorido o fundo da tabela*/
+main .tabela{
+    background: mediumturquoise;
+    font-size: 3em;
+    display: flex;
+	justify-content: center;
+	flex-direction: column;
+	
+}
+/*foi colorido o fundo da imagem*/
+main .imagem{
+    background: navajowhite;
+}
+
+/*foi colorido o rodapé da página*/
+footer{
+    border: 1px solid;
+    font-size: 1.5em;
+    margin: 10px;
+    background: rgb(87, 87, 231);
+}
+
+
